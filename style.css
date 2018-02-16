@@ -1,0 +1,22 @@
+html,body{
+	height: 100%;
+}
+body{
+	/*background: lightblue;*/
+	background: linear-gradient(#07D9FF,#01FFD8,#06FCA8);
+}
+
+.caja{
+	background: #FF00EA;
+	border-radius: 50%;
+	box-shadow: 0.5em 0.5em 0.5em #000;
+	height: 400px;
+	margin: 0 auto;
+	width: 40%; 
+	transition: all linear 3s;
+}
+.caja:hover{
+	background: orange;
+	border-radius: 0;
+	cursor:pointer;
+}
